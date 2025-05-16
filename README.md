@@ -1,5 +1,32 @@
 # GitHub OAuth Dashboard
 
+A full-stack web application that authenticates users via GitHub OAuth and displays their repositories, issues, and pull requests in a user-friendly dashboard.
+
+
+## 🚀 Features
+
+✅ GitHub OAuth authentication  
+✅ View all your repositories  
+✅ View repository details  
+✅ See open issues per repository  
+✅ See open pull requests per repository  
+✅ Protected routes for logged-in users  
+
+
+## 🔐 OAuth Setup (GitHub)
+
+1. Go to [GitHub Developer Settings]
+2. Create a new OAuth App:
+3. Example:
+   - Homepage URL: `http://localhost:3000`
+   - Callback URL: `http://localhost:3000/auth/github/callback`
+4. Get your:
+   - `GITHUB_CLIENT_ID`
+   - `GITHUB_CLIENT_SECRET`
+
+
+
+
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repo
